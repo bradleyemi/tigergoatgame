@@ -33,10 +33,10 @@ def menu():
     os.system('clear')
 
 def play():
-    pieces = [piece('A1','t'),
-              piece('A5','t'),
-              piece('E1','t'),
-              piece('E5','t')]
+    pieces = [piece(0, 'A1','t'),
+              piece(1, 'A5','t'),
+              piece(2, 'E1','t'),
+              piece(3, 'E5','t')]
     draw_map(pieces)
     raw_input("\n-->")
 
