@@ -1,0 +1,15 @@
+#######################################
+#                                     #
+#              BAGH-CHAL              #
+#        the strategic game of        #
+#          tigers and goats           #
+#                                     #
+#         To play, press ENTER        #
+#                                     #
+#     For instructions, press 'h',    #
+#            then ENTER               #
+#                                     #
+#         To quit, press 'q',         #
+#            then ENTER               #
+#                                     #
+#######################################

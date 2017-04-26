@@ -1,0 +1,33 @@
+#######################################
+#          --Instructions--           #
+#                                     #
+#  BAGH-CHAL is a Nepalese board game #
+#  for two players. One player        #
+#  controls the four tigers, and the  #
+#  other player controls the twenty   #
+#  goats. The goal of the game for    #
+#  the tigers is to eat all the goats #
+#  by jumping over them, and the goal #
+#  of the goats is to surround the    #
+#  tigers so they cannot move.        #
+#                                     #
+#  The players move in succession.    #
+#  The tigers start at the corners.   #
+#  Until all goats are placed, the    #
+#  goat player must use their turn    #
+#  to place goats one at a time on    #
+#  vacant tiles. On all other turns,  #
+#  both players can move their pieces #
+#  to adjacent tiles only along the   #
+#  lines of the board. The only       #
+#  exception is that a tiger can      #
+#  jump over a goat to eat it.        #
+#                                     #
+#  The game ends when there are no    #
+#  more goats or when the tigers can  #
+#  no longer move (or when one player #
+#  forfeits).                         #
+#                                     #
+# To return to the menu, press ENTER. #
+#                                     #
+#######################################

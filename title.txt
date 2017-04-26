@@ -1,0 +1,14 @@
+#######################################
+#                                     #
+#              BAGH-CHAL              #
+#        the strategic game of        #
+#          tigers and goats           #
+#                                     #
+#          It's XXXXXX' turn.         #
+#                                     #
+#   goats placed: Y  goats eaten: Z   #
+#                                     #
+#                                     #
+#  quit: 'q' commands: 'c' help: 'h'  #
+#          show moves: 's'            #
+#######################################

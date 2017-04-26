@@ -1,0 +1,14 @@
+#######################################
+#           --Commands--              #
+#                                     #
+#   MOVE:  <Moving From><Moving To>   #
+#     e.g., A1B1, C3C4                #
+#                                     #
+#   PLACE (goat only): p<Tile>        #
+#     e.g., pA1, pD5                  #
+#                                     #
+#   JUMP (tiger only): same as MOVE   #
+#                                     #
+#  To return to the game, press ENTER #
+#                                     #
+#######################################
