@@ -32,12 +32,25 @@ def menu():
             continue
     os.system('clear')
 
+class TigerGoatGame():
+    def __init__(self):
+        self.pieces = [piece(0, 'A1','t'),
+                       piece(1, 'A5','t'),
+                       piece(2, 'E1','t'),
+                       piece(3, 'E5','t')]
+        self.piece_id_counter = 4
+
+        self.placed = 0
+        self.goats_to_be_placed = 20
+        self.eaten = 0
+        self.turn = 'g'
+
+    def show(self):
+        draw_map(self.pieces, turn=self.turn, eaten=self.eaten, placed=self.placed)
+
 def play():
-    pieces = [piece(0, 'A1','t'),
-              piece(1, 'A5','t'),
-              piece(2, 'E1','t'),
-              piece(3, 'E5','t')]
-    draw_map(pieces)
+    game = TigerGoatGame()
+    game.show()
     raw_input("\n-->")
 
 menu()
