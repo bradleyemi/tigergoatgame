@@ -1,6 +1,7 @@
 from __future__ import print_function
 import os
 from termcolor import colored
+
 from environment import *
 
 def menu():
@@ -45,13 +46,30 @@ class TigerGoatGame():
         self.eaten = 0
         self.turn = 'g'
 
+        self.finished = False
+
     def show(self):
         draw_map(self.pieces, turn=self.turn, eaten=self.eaten, placed=self.placed)
 
+    def is_move_valid(self, cmd):
+        pass
+
+    def move(self, cmd):
+        pass
+
+    def show_game_over(self):
+        pass
+
 def play():
     game = TigerGoatGame()
-    game.show()
-    raw_input("\n-->")
+    while not game.finished:
+        game.show()
+        command = raw_input("\n-->")
+        if game.is_move_valid(command):
+            game.move(command)
+        else:
+            continue
+    game.show_game_over()
 
 menu()
         
